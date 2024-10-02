@@ -7,19 +7,23 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
 
-      <div className="flex gap-3">
-        <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </div>
-      </div>
+      <div className="social-icon">
+    <a href="https://github.com/KKBAE143" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/github.svg" alt="GitHub" className="w-10 h-7" />
+    </a>
+</div>
+<div className="social-icon">
+    <a href="https://www.linkedin.com/in/itsmekarthikpilli/" target="_blank" rel="noopener noreferrer">
+        <img src="   https://cdn-icons-png.flaticon.com/512/3536/3536505.png " alt="Linkdin" className="w-8 h-7" />
+    </a>
+</div>
+<div className="social-icon">
+    <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/instagram.svg" alt="Instagram" className="w-10 h-7" />
+    </a>
+</div>
 
-      <p className="text-white-500">© 2024 Adrian Hajdin. All rights reserved.</p>
+      <p className="text-white-500">© 2024 Pilli. All rights reserved.</p>
     </footer>
   );
 };

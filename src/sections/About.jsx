@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' Kkbae143@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Pilli Karthik</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              I am an AI Engineer and Full Stack Developer with a passion for building intelligent, functional, and impactful solutions. My expertise spans AI, machine learning, and full-stack development, where I aim to create scalable applications that solve real-world problems. Currently, I am pursuing my BTech in Computer Science and Engineering (IoT) at HITAM College, Hyderabad, India, and I’m always eager to take on new challenges that foster learning and innovation.
               </p>
             </div>
           </div>
@@ -39,8 +38,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I specialize in a diverse range of languages, frameworks, and tools, including Python, JavaScript, TensorFlow, PyTorch, and Next.js, which enable me to develop AI-powered solutions and scalable, full-stack applications. My expertise spans across machine learning, deep learning, cloud-native development, and API integrations, ensuring robust and efficient software delivery.
               </p>
             </div>
           </div>
@@ -62,8 +60,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">I’m Highly Adaptable to Remote Work and Collaboration</p>
+              <p className="grid-subtext">I’m currently based in Hyderabad, India, and I’m open to remote work opportunities across the globe. With experience in virtual collaborations and diverse time zone communications, I am flexible and committed to ensuring seamless coordination, no matter the location.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -74,10 +72,9 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">My Passion for AI Engineering</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+              My passion lies in leveraging AI and machine learning to solve complex problems and drive innovation. As an AI engineer, I thrive on building intelligent systems and continuously enhancing my skills by exploring cutting-edge technologies like deep learning, TensorFlow, and PyTorch. Every project is an opportunity to refine solutions that not only meet real-world needs but also push the boundaries of AI.
               </p>
             </div>
           </div>
@@ -95,7 +92,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Kkbae143@gmail.com</p>
               </div>
             </div>
           </div>
